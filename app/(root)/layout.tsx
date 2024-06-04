@@ -5,12 +5,13 @@ import { ClerkProvider } from "@clerk/nextjs";
 import "../globals.css";
 import Navbar from "@/components/Navbar";
 import ToasterProvider from "@/lib/providers/ToasterProvider";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Borcelle Store",
-  description: "Borcelle Ecommerce Store",
+  description: "Borcelle Pet Store",
 };
 
 export default function RootLayout({
@@ -25,6 +26,7 @@ export default function RootLayout({
           <ToasterProvider />
           <Navbar />
           {children}
+          <Footer/>
         </ClerkProvider>
       </body>
     </html>

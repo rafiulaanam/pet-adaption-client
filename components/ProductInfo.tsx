@@ -100,8 +100,9 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
           });
         }}
       >
-        Add To Cart
+        Add To Adaptation Request
       </button>
+      
     </div>
   );
 };
