@@ -89,7 +89,7 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
         </div>
       </div>
 
-      <button
+      {/* <button
         className="outline text-base-bold py-3 rounded-lg hover:bg-black hover:text-white"
         onClick={() => {
           cart.addItem({
@@ -101,7 +101,7 @@ const ProductInfo = ({ productInfo }: { productInfo: ProductType }) => {
         }}
       >
         Add To Adaptation Request
-      </button>
+      </button> */}
       
     </div>
   );
