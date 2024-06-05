@@ -14,7 +14,7 @@ const ProductDetails = async ({ params }: { params: { productId: string }}) => {
       <Gallery productMedia={productDetails.media} />
       <ProductInfo productInfo={productDetails} />
     </div>
-<AdaptationRequest productInfo={productDetails}/>
+<AdaptationRequest />
     <div className="flex flex-col items-center px-10 py-5 max-md:px-3">
       <p className="text-heading3-bold">Related Products</p>
       <div className="flex flex-wrap gap-16 mx-auto mt-8">
